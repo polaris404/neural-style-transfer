@@ -11,16 +11,16 @@ Here is an example of it:
 <div>
 	<div style="display: flex;justify-content: center;">
 		<div style="text-align: center;margin: 10px;">
-			<img style="display: block; margin: 0 auto;height: 256px;" src="./sample/konark.jpg">
+			<img style="display: block; margin: 0 auto;height: 256px;" src="https://github.com/polaris404/neural-style-transfer/blob/main/sample/konark.jpg">
 			<p style="margin-top: 5px;font-style: italic;color: #888;">Photo of Konark Temple captured by me.</p>
 		</div>
 		<div style="text-align: center;margin: 10px;">
-			<img style="display: block; margin: 0 auto;height: 256px;" src="./sample/femme_nue_assise.jpg">
+			<img style="display: block; margin: 0 auto;height: 256px;" src="https://github.com/polaris404/neural-style-transfer/blob/main/sample/femme_nue_assise.jpg">
 			<p style="margin-top: 5px;font-style: italic;color: #888;">Femme Nue Assise by Picasso</p>
 		</div>
 	</div>
 	<div style="text-align: center;margin: 10px;">
-		<img style="display: block; margin: 0 auto;height: 256px;" src="./sample/result.jpg">
+		<img style="display: block; margin: 0 auto;height: 256px;" src="https://github.com/polaris404/neural-style-transfer/blob/main/sample/result.jpg">
 		<p style="margin-top: 5px;font-style: italic;color: #888;">Resulant Image</p>
 	</div>
 </div>
