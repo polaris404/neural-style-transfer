@@ -31,13 +31,13 @@ Here is an example of it:
 
 To understand style transfer you should first know what each layer in a Convolution Neural Network learns. Here is paper published on visualizing CNN: [Visualizing and Understanding Convolutional Networks](https://arxiv.org/abs/1311.2901).
 
-- They proposed a technique which uses multi-layered Deconvolution Network (deconvnet), to project the feature activations back to the input pixel space. A deconvnet can be thought of as a convnet model that uses the same components (filtering, pooling) but in reverse, so instead of mapping pixels to features does the opposite.
+- They proposed a technique which uses multi-layered Deconvolution Network (deconvnet), to project the feature activations back to the input pixel space. A deconvnet can be thought of as a convnet model that uses the same components (filtering, pooling) but in reverse, so instead of mapping pixels to features, it does the opposite.
 - To examine a convnet, a deconvnet is attached to each of its layers, providing a continuous path back to image pixels. To examine a given convet activation, they set all the other activations in the layer to zero and pass it to the attached deconvnet layer.
 - After training, we can visulalize what feature does the particular layer is learning.
 
 ### Neural Style Transfer
 
-A paper was published on 2015 named [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). In this paper the researchers found that the representations of content and style in the CNN are separable. That is, we can manipulate both representations independently to produce new, perceptually meaningful images.
+A paper was published in 2015 named [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). In this paper, the researchers found that the representations of content and style in the CNN are separable. That is, we can manipulate both representations independently to produce new, perceptually meaningful images.
 
 - Higher layers in the network capture the high-level content in terms of objects and their arrangement in the input image but do not constrain the exact pixel values of the reconstruction. In contrast, reconstructions from the lower layers simply reproduce the exact pixel values of the original image.
 - We therefore refer to the feature responses in higher layers of the network as the **content representation** and in lower layers as **style representation**.
